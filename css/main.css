@@ -198,6 +198,7 @@ button:focus {
 
 .hero > div {
 	background: #000 url(../img/bg.jpg) no-repeat 50% 0;
+	/*background-color: #000;*/
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }

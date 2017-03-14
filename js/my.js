@@ -1,6 +1,3 @@
-
-
-
 $(window).scroll(function(){	//滚动置顶按钮toggle
 	if($(window).scrollTop() >= 100){
 		$('.gotop').show(500);
