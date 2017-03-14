@@ -11,7 +11,7 @@
 (function(){
 	 $.ajax({
 		type:"get",
-		url:'http://127.0.0.1:8081/listThemes',
+		url:'http://104.224.160.97:8081/listThemes',
 		dataType:"jsonp",
 		jsonpCallback:"cb",
 		success:function(data){
@@ -27,7 +27,7 @@
 			//异步获取imgs
 			$.ajax({
 				type:"get",
-				url:'http://127.0.0.1:8081/listImgs',
+				url:'http://104.224.160.97:8081/listImgs',
 				dataType:"jsonp",
 				jsonpCallback:"cb",
 				success:function(data){
